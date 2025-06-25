@@ -1,7 +1,7 @@
 # Tak: A Beautiful Game 
 This is a simple web implementation of the abstract board game Tak. The goal of the game is to make a road of stones from one end of the board to the other.
 
-Link to project: insert link
+[Link to project](https://pufferfishman.github.io/tak/)
 
 ![image](https://github.com/user-attachments/assets/fd41e9e4-5335-49b9-9ff0-f414dc8075c9)
 
