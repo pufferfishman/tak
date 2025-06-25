@@ -5,14 +5,14 @@ Link to project: insert link
 
 insert image
 
-## Challenges 
+## Challenges I Faced
 I faced many challenged in the 18 hours that I spent developing this project, and I had to make some comprimises. Tak is an extremely complex game with many mechanics and edge cases, and I tried to account for them as well as I could. 
 
 Tak is also a 2 player game, so usually it would be played online with another person, however, I have zero experience with backend development, so exclusively local multiplayer is supported in this version. 
 
 The hardest part of this project, though, would have to be implementing and debugging the stone movement system. It's very specific and has tons of rules that are difficult to implement, let alone debug.
 
-## How I Made It: 
+## How I Made It
 To make this project, I used basic HTML, CSS, and JavaScript.
 
 At first, I started out with some basic CSS so my eyes wouldn't bleed during the rest of development, and this simple theme stuck throughout the whole time I made it. 
