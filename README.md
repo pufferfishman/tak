@@ -3,7 +3,8 @@ This is a simple web implementation of the abstract board game Tak. The goal of 
 
 Link to project: insert link
 
-insert image
+![image](https://github.com/user-attachments/assets/fd41e9e4-5335-49b9-9ff0-f414dc8075c9)
+
 
 ## Challenges I Faced
 I faced many challenged in the 18 hours that I spent developing this project, and I had to make some comprimises. Tak is an extremely complex game with many mechanics and edge cases, and I tried to account for them as well as I could. 
