@@ -19,7 +19,7 @@ At first, I started out with some basic CSS so my eyes wouldn't bleed during the
 
 I made a test 4x4 board and defined a stack storage system. Then, I tried to implement placing stones, and that's when I realized that it's way out of reach for my skill level. I decided to settle for inputting PTN notation to make moves instead. I built a PTN notation parser, learning RegEx along the way. I also decided it was time to expand the board to the full 6x6 size and put in the different types of stones. Then, it was time to code the actual gameplay. I added the ability to place stones, but this was the easy part. 
 
-Next, I had to tackle the stack movement system, and I learned many things along the way while implementing this. Durinng this stage, it was bug after bug, but I pushed through and debugged for hours to get it working. At the end, I added a move list viewer, a quick description, and some important links for first-time Tak players. 
+Next, I had to tackle the stack movement system, and I learned many things along the way while implementing this. During this stage, it was bug after bug, but I pushed through and debugged for hours to get it working. At the end, I added a move list viewer, a quick description, and some important links for first-time Tak players. 
 
 I'm honestly proud that I could get this project working at all, even with the comprimises. I definitely bit off more than I could chew, but I managed to complete it in the end.
 
