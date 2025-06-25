@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="titleContainer">
+		<div id="title">Tak</div>
+		<div id="subtitle">a beautiful game</div>
+	</div>
+	<div id="descriptionContainer">
+		<div class="title">Info:</div>
+		<div id="description">Tak is an abstract board game similar to Chess and Go, created in 2016. This is a scrappy web implementation of Tak. I'm a beginner, so the graphics are lacklustre, you can play moves using Tak's PTN notation and only local multiplayer is available. There may be some minor or even major bugs. Nevertheless, I hope you enjoy it!</div>
+		<div class="title">Learn More:</div>
+		<div id="learnMore">
+			<a class="learnMoreButton" id="rules" target="_blank" href="https://ustak.org/play-beautiful-game-tak/">How to Play (Tak Rules)</a>
+			<a class="learnMoreButton" id="video" target="_blank" href="https://www.youtube.com/watch?v=Te0Wm_GCCAQ">Gameplay Video (Intro)</a>
+			<a class="learnMoreButton" id="playtak" target="_blank" href="https://playtak.com">PlayTak (Online Games)</a>
+			<a class="learnMoreButton" id="ptnninja" target="_blank" href="https://ptn.ninja">PTN Ninja (Tak Analysis)</a>
+			<a class="learnMoreButton" id="discord" target="_blank" href="https://discord.gg/XeTwtsgv">Discord (Chat & Play Tak)</a>
+			<a class="learnMoreButton" id="ptnguide" target="_blank" href="https://ustak.org/portable-tak-notation/">PTN Guide (PTN Notation)</a>
+		</div>
+
+	</div>
+
+	<div id="moveListContainer">
+		<div id="moveListTitle">Moves:</div>
+		<div id="line"></div>
+		<div id="moveList">
+		</div>
+	</div>
+	<div id="board">
+		<div class="square" id="square1" onclick="action(1)"></div>
+		<div class="square" id="square2" onclick="action(2)"></div>
+		<div class="square" id="square3" onclick="action(3)"></div>
+		<div class="square" id="square4" onclick="action(4)"></div>
+		<div class="square" id="square5" onclick="action(5)"></div>
+		<div class="square" id="square6" onclick="action(6)"></div>
+		<div class="square" id="square7" onclick="action(7)"></div>
+		<div class="square" id="square8" onclick="action(8)"></div>
+		<div class="square" id="square9" onclick="action(9)"></div>
+		<div class="square" id="square10" onclick="action(10)"></div>
+		<div class="square" id="square11" onclick="action(11)"></div>
+		<div class="square" id="square12" onclick="action(12)"></div>
+		<div class="square" id="square13" onclick="action(13)"></div>
+		<div class="square" id="square14" onclick="action(14)"></div>
+		<div class="square" id="square15" onclick="action(15)"></div>
+		<div class="square" id="square16" onclick="action(16)"></div>
+		<div class="square" id="square17" onclick="action(17)"></div>
+		<div class="square" id="square18" onclick="action(18)"></div>
+		<div class="square" id="square19" onclick="action(19)"></div>
+		<div class="square" id="square20" onclick="action(20)"></div>
+		<div class="square" id="square21" onclick="action(21)"></div>
+		<div class="square" id="square22" onclick="action(22)"></div>
+		<div class="square" id="square23" onclick="action(23)"></div>
+		<div class="square" id="square24" onclick="action(24)"></div>
+		<div class="square" id="square25" onclick="action(25)"></div>
+		<div class="square" id="square26" onclick="action(26)"></div>
+		<div class="square" id="square27" onclick="action(27)"></div>
+		<div class="square" id="square28" onclick="action(28)"></div>
+		<div class="square" id="square29" onclick="action(29)"></div>
+		<div class="square" id="square30" onclick="action(30)"></div>
+		<div class="square" id="square31" onclick="action(31)"></div>
+		<div class="square" id="square32" onclick="action(32)"></div>
+		<div class="square" id="square33" onclick="action(33)"></div>
+		<div class="square" id="square34" onclick="action(34)"></div>
+		<div class="square" id="square35" onclick="action(35)"></div>
+		<div class="square" id="square36" onclick="action(36)"></div>
+
+	</div>
+	<div id="inputContainer">
+		<button class="button" id="reset" onclick="setup()">Reset</button>
+		<input type="text" id="moveInput" placeholder="Type PTN">
+		<button class="button" id="submitMove" onclick="playMove()">Play Move</button>
+		<div id="turnIndicator">White's Turn</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

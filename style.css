@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Varela+Round&display=swap');
+
+* {
+	font-family: "Lexend";
+	font-size: 14px;
+	color: white;
+}
+
+body {
+	background-color: #333;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#board {
+	width: 600px;
+	height: 600px;
+	display: grid;
+	grid-template-columns: repeat(6,100px);
+	grid-template-rows: repeat(6,100px);
+	transform: translate(-10px);
+}
+
+.square {
+	width: 80px;
+	height: 80px;
+	background-color: burlywood;
+	border: solid #222 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.flat {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+.wall {
+	width: 15px;
+	height: 50px;
+	position: absolute;
+}
+
+.capstone {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	border-radius: 100%;
+}
+
+.whiteFlat {
+	background-color: white;
+	border: solid lightgrey 5px;
+}
+
+.blackFlat {
+	background-color: black;
+	border: solid #333 5px;
+}
+
+.whiteWall {
+	background-color: white;
+	border: solid lightgrey 5px;
+}
+
+.blackWall {
+	background-color: black;
+	border: solid #333 5px;
+}
+
+.whiteCapstone {
+	background-color: white;
+	border: solid lightgrey 5px;
+}
+
+.blackCapstone {
+	background-color: black;
+	border: solid #333 5px;
+}
+
+#inputContainer {
+	margin-top: 50px;
+	width: 600px;
+	height: 30px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#moveInput {
+	text-align: center;
+	width: 100px;
+	height: 28px;
+	border: none;
+	color: black;
+}
+
+#moveInput:focus {
+	background-color: #fff;
+}
+
+.button {
+	width: 100px;
+	height: 30px;
+	border: none;
+	color: black;
+}
+
+#submitMove {
+	background-color: #eee;
+}
+
+#submitMove:hover {
+	background-color: #ddd;
+}
+
+#submitMove:active {
+	background-color: #ccc;
+}
+
+#reset {
+	background-color: red;
+	color: white;
+	margin-right: 95px;
+}
+
+#reset:hover {
+	background-color: #ee0000;
+}
+
+#reset:active {
+	background-color: #dd0000;
+}
+
+#turnIndicator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	margin-left: auto;
+}
+
+#moveListContainer {
+	width: 250px;
+	height: 600px;
+	position: absolute;
+	transform: translate(500px, 45px);
+	border: solid #222 10px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+#moveListTitle {
+	font-size: 28px;
+	text-align: center;
+	border-bottom: solid #222 10px;
+	flex-shrink: 0;
+}
+
+#moveList {
+	flex-grow: 1;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: grid;
+	grid-template-columns: repeat(2, 125px);
+	width: 100%;
+}
+
+#moveList::-webkit-scrollbar {
+	display: none;
+}
+#moveList {
+	-ms-overflow-style: none;  /* IE 10+ */
+	scrollbar-width: none;     /* Firefox */
+}
+
+
+.move {
+	margin: 0px;
+	padding: 5px;
+	font-size: 17px;
+	height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#line {
+	width: 10px;
+	height: 570px;
+	background-color: #222;
+	position: absolute;
+	transform: translate(125px,40px);
+}
+
+.whiteMove {
+	color: black;
+	background-color: #eee;
+	border-bottom: solid #222 10px;
+}
+
+.blackMove {
+	color: white;
+	background-color: #111;
+	border-bottom: solid #222 10px;
+}
+
+#title {
+	font-size: 64px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#subtitle {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#descriptionContainer {
+	width: 250px;
+	height: 600px;
+	position: absolute;
+	transform: translate(-500px, 45px);
+	border: solid #222 10px;
+}
+
+.title {
+	font-size: 26px;
+	text-align: center;
+	border-bottom: solid #222 10px;
+}
+
+#description {
+	font-size: 16px;
+	border-bottom: solid #222 10px;
+	padding: 5px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+
+.learnMoreButton {
+	width: 225px;
+	height: 25px;
+	font-size: 16px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #222;
+	color: white;
+	margin: 8px;
+	padding: 2px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 0.5rem;
+	text-decoration: none;
+}
